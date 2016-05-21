@@ -10,6 +10,7 @@
 #import "WJLineFlowLayout.h"
 #import "WJTwoRowLayout.h"
 #import "WJCollectionViewCell.h"
+#import "WJCircleLayout.h"
 
 @interface ViewController ()<UICollectionViewDelegate, UICollectionViewDataSource>
 
@@ -29,9 +30,16 @@
 //        [contentView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([UICollectionViewCell class])];
 //        [self.view addSubview:contentView];
     
-    WJTwoRowLayout *layout = [[WJTwoRowLayout alloc] init];
-    layout.minimumLineSpacing = 10;
-    layout.minimumInteritemSpacing = 10;
+//    WJTwoRowLayout *layout = [[WJTwoRowLayout alloc] init];
+//    layout.minimumLineSpacing = 10;
+//    layout.minimumInteritemSpacing = 10;
+//    UICollectionView *contentView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+//    contentView.delegate = self;
+//    contentView.dataSource = self;
+//    [contentView registerClass:[WJCollectionViewCell class] forCellWithReuseIdentifier:NSStringFromClass([WJCollectionViewCell class])];
+//    [self.view addSubview:contentView];
+    
+    WJCircleLayout *layout = [[WJCircleLayout alloc] init];
     UICollectionView *contentView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
     contentView.delegate = self;
     contentView.dataSource = self;
@@ -41,7 +49,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return 16;
+    return 10;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {

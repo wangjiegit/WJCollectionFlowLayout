@@ -17,6 +17,7 @@
 		A07CE50D1CEEEA2300C21C8E /* WJLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A07CE50C1CEEEA2300C21C8E /* WJLineFlowLayout.m */; };
 		A07CE5131CEF0ED300C21C8E /* WJTwoRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */; };
 		A0E2F9811CF0078200BE7A47 /* WJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2F9801CF0078200BE7A47 /* WJCollectionViewCell.m */; };
+		A0E2F9841CF012B200BE7A47 /* WJCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2F9831CF012B200BE7A47 /* WJCircleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTwoRowLayout.m; sourceTree = "<group>"; };
 		A0E2F97F1CF0078200BE7A47 /* WJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCollectionViewCell.h; sourceTree = "<group>"; };
 		A0E2F9801CF0078200BE7A47 /* WJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCollectionViewCell.m; sourceTree = "<group>"; };
+		A0E2F9821CF012B200BE7A47 /* WJCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCircleLayout.h; sourceTree = "<group>"; };
+		A0E2F9831CF012B200BE7A47 /* WJCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCircleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +72,7 @@
 		A07CE4F01CEEC20A00C21C8E /* WJCollectionFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				A07CE50A1CEEE9DB00C21C8E /* WJLineFlowLayout */,
+				A07CE50A1CEEE9DB00C21C8E /* WJFlowLayout */,
 				A07CE5081CEEE8B000C21C8E /* 1.jpg */,
 				A07CE4F41CEEC20A00C21C8E /* AppDelegate.h */,
 				A07CE4F51CEEC20A00C21C8E /* AppDelegate.m */,
@@ -94,15 +97,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A07CE50A1CEEE9DB00C21C8E /* WJLineFlowLayout */ = {
+		A07CE50A1CEEE9DB00C21C8E /* WJFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
 				A07CE50B1CEEEA2300C21C8E /* WJLineFlowLayout.h */,
 				A07CE50C1CEEEA2300C21C8E /* WJLineFlowLayout.m */,
 				A07CE5111CEF0ED300C21C8E /* WJTwoRowLayout.h */,
 				A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */,
+				A0E2F9821CF012B200BE7A47 /* WJCircleLayout.h */,
+				A0E2F9831CF012B200BE7A47 /* WJCircleLayout.m */,
 			);
-			name = WJLineFlowLayout;
+			name = WJFlowLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +183,7 @@
 			files = (
 				A07CE50D1CEEEA2300C21C8E /* WJLineFlowLayout.m in Sources */,
 				A07CE4F91CEEC20A00C21C8E /* ViewController.m in Sources */,
+				A0E2F9841CF012B200BE7A47 /* WJCircleLayout.m in Sources */,
 				A07CE4F61CEEC20A00C21C8E /* AppDelegate.m in Sources */,
 				A07CE4F31CEEC20A00C21C8E /* main.m in Sources */,
 				A07CE5131CEF0ED300C21C8E /* WJTwoRowLayout.m in Sources */,
