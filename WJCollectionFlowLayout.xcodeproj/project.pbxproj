@@ -15,6 +15,8 @@
 		A07CE5011CEEC20A00C21C8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07CE4FF1CEEC20A00C21C8E /* LaunchScreen.storyboard */; };
 		A07CE5091CEEE8B000C21C8E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A07CE5081CEEE8B000C21C8E /* 1.jpg */; };
 		A07CE50D1CEEEA2300C21C8E /* WJLineFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A07CE50C1CEEEA2300C21C8E /* WJLineFlowLayout.m */; };
+		A07CE5131CEF0ED300C21C8E /* WJTwoRowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */; };
+		A0E2F9811CF0078200BE7A47 /* WJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2F9801CF0078200BE7A47 /* WJCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		A07CE5081CEEE8B000C21C8E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		A07CE50B1CEEEA2300C21C8E /* WJLineFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLineFlowLayout.h; sourceTree = "<group>"; };
 		A07CE50C1CEEEA2300C21C8E /* WJLineFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLineFlowLayout.m; sourceTree = "<group>"; };
+		A07CE5111CEF0ED300C21C8E /* WJTwoRowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTwoRowLayout.h; sourceTree = "<group>"; };
+		A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJTwoRowLayout.m; sourceTree = "<group>"; };
+		A0E2F97F1CF0078200BE7A47 /* WJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCollectionViewCell.h; sourceTree = "<group>"; };
+		A0E2F9801CF0078200BE7A47 /* WJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,8 @@
 				A07CE4F51CEEC20A00C21C8E /* AppDelegate.m */,
 				A07CE4F71CEEC20A00C21C8E /* ViewController.h */,
 				A07CE4F81CEEC20A00C21C8E /* ViewController.m */,
+				A0E2F97F1CF0078200BE7A47 /* WJCollectionViewCell.h */,
+				A0E2F9801CF0078200BE7A47 /* WJCollectionViewCell.m */,
 				A07CE4FA1CEEC20A00C21C8E /* Main.storyboard */,
 				A07CE4FD1CEEC20A00C21C8E /* Assets.xcassets */,
 				A07CE4FF1CEEC20A00C21C8E /* LaunchScreen.storyboard */,
@@ -91,6 +99,8 @@
 			children = (
 				A07CE50B1CEEEA2300C21C8E /* WJLineFlowLayout.h */,
 				A07CE50C1CEEEA2300C21C8E /* WJLineFlowLayout.m */,
+				A07CE5111CEF0ED300C21C8E /* WJTwoRowLayout.h */,
+				A07CE5121CEF0ED300C21C8E /* WJTwoRowLayout.m */,
 			);
 			name = WJLineFlowLayout;
 			sourceTree = "<group>";
@@ -170,6 +180,8 @@
 				A07CE4F91CEEC20A00C21C8E /* ViewController.m in Sources */,
 				A07CE4F61CEEC20A00C21C8E /* AppDelegate.m in Sources */,
 				A07CE4F31CEEC20A00C21C8E /* main.m in Sources */,
+				A07CE5131CEF0ED300C21C8E /* WJTwoRowLayout.m in Sources */,
+				A0E2F9811CF0078200BE7A47 /* WJCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +332,7 @@
 				A07CE5071CEEC20A00C21C8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
